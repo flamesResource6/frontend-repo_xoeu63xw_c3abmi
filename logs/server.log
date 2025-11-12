@@ -1,0 +1,75 @@
+
+> she-secure@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 281 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.7.70:3000/
+1:35:40 AM [vite] Pre-transform error: Failed to resolve import "./assets/success.json" from "src/App.jsx". Does the file exist?
+1:36:07 AM [vite] Internal server error: Failed to resolve import "./assets/success.json" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/App.jsx:7:24
+  6  |  import { MapPin, Shield, PhoneCall, Send, User2, Map, AlertTriangle, Languages, LogOut, Trash2 } from "lucide-react";
+  7  |  import { Player } from "lottie-react";
+  8  |  import successAnim from "./assets/success.json";
+     |                           ^
+  9  |  const API_BASE = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
+  10 |  const PrimaryButton = ({ children, className = "", ...props }) => /* @__PURE__ */ jsxDEV(
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+
+Could not open dep-D_zLpgQd.js in the editor.
+The editor process exited with an error: spawn vi ENOENT ('vi' command does not exist in 'PATH').
+
+
+Could not open App.jsx in the editor.
+The editor process exited with an error: spawn vi ENOENT ('vi' command does not exist in 'PATH').
+
+1:36:32 AM [vite] Internal server error: Failed to resolve import "./assets/success.json" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/App.jsx:7:24
+  6  |  import { MapPin, Shield, PhoneCall, Send, User2, Map, AlertTriangle, Languages, LogOut, Trash2 } from "lucide-react";
+  7  |  import { Player } from "lottie-react";
+  8  |  import successAnim from "./assets/success.json";
+     |                           ^
+  9  |  const API_BASE = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
+  10 |  const PrimaryButton = ({ children, className = "", ...props }) => /* @__PURE__ */ jsxDEV(
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+1:36:35 AM [vite] Internal server error: Failed to resolve import "./assets/success.json" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/App.jsx:7:24
+  6  |  import { MapPin, Shield, PhoneCall, Send, User2, Map, AlertTriangle, Languages, LogOut, Trash2 } from "lucide-react";
+  7  |  import { Player } from "lottie-react";
+  8  |  import successAnim from "./assets/success.json";
+     |                           ^
+  9  |  const API_BASE = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
+  10 |  const PrimaryButton = ({ children, className = "", ...props }) => /* @__PURE__ */ jsxDEV(
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
